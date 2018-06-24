@@ -1,0 +1,13 @@
+<style type='css'>
+ 
+tr:nth-child(odd) {
+    background-color:#99FFFF;
+}
+tr:nth-child(even) {
+    background-color:White;
+}
+tr:hover {
+background-color: #778899;
+}
+ 
+</style>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sigurd</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="tabla.css">
+	
+	<script>
+        // guardamos el id de la imagen visible
+        idImagenVisible="contenido1";
+        function mostrar(id)
+        {
+            // esconedemos la imagen visible
+            document.getElementById(idImagenVisible).style.display="none";
+            // mostramos la imagen seleccionada
+            document.getElementById(id).style.display="block"; 
+            // guardamos en la variable la imagen que estamos visualizando
+            idImagenVisible=id;
+        }
+    </script>
+    <style>
+        .oculto {display:none;}
+    </style>
+	
+</head>
+<body>
+
+	<div id="particles-js"></div>
+
+	<header>
+		<div class="menu">
+			<div class="contenedor">
+				<div class="logo"><font size="120%">SIGURD</font></div>
+				<nav>
+					<ul>
+					    <li><a href="#m">Datos</a></li>
+					    <li><a href="#s">Servicios</a></li>
+						<li><a href="#O">Organigrama</a><li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	
+	<header>
+	<br><center><img src="Sgigurd.jpg" border="3" height="300" width="500" ></img></center>
+		<font color="White" size="150%"><h3>"Nunca enseñes tu código fuente a quien solo busca la interfaz"</h3></font><br><br>
+    </header>
+
+	<div class="principal contenedor">
+	
+
+	    <article>
+		<a name="m"></a>
+		<center><h2>SIGURG</h2></center>
+		<p align="center"><font size="5">COL. TIERRA BLANCA, CALLE AMAPOLAS, No.77 Lt.89, Mz.63, ECATEPEC DE MORELOS, ESTADO DE MÉXICO.
+		<br><br>
+		TEL. 55-66-62-98<br>
+		CORREO ELECTRONICO: Sg.Sigurd.TE@gmail.com</font></p>
+		
+		</article>
+		
+		<article>
+		<a name="s"></a><center>
+		<h2>SERVICIOS</h2><font size="5"></center>
+		Ofrecemos los siguientes servicios:<br><br>
+		<p align="justify">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1. Manejo base de Datos<br>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2. Cracion de Aplicacioes moviles<br>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3. Manejo de Software:</font></p><p align="justify"><font size="3">
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;HTML, CSS, ANDROID, ECLIPSE, APP INVENTOR, MySQL, NETBEANS, VISUAL BASIC, C++, DFD, PSEINT, ETC.<br></font></p>
+		<p align="justify"><font size="5">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;4. Desarrollo de aplicaciones Moviles<br>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; <a href="ecosistemas.html" target="top">(Ver trabajo realizado)</a></font></p>
+		</article>
+	
+		<article>
+		<h2>ORGANIGRAMA EMPRESARIAL</h2>
+		<a name="O"></a><center>
+		 <form>
+
+           <center><table BORDER="2" WIDTH="60%" height="90%">
+           <tr>
+               <td colspan="middle" rowspan="8"><img src="Organigrama.jpg" alt="Organigrama" title="Organigrama" width="400" height="290" border="4"></td><td><font size="2" color="gold" face="blue"><input type="button" onclick="mostrar('contenido1')" value="LIC. BRENDA IRIS  GARCIA GARCIA"></font></td>
+           </tr>	 
+           <tr>
+               <td><font size="2" color="Black" face="blue"><input type="button" onclick="mostrar('contenido2')" value="LIC. BRENDA GABRIELA MEDINA GUZMAN"></font></td>
+           </tr> 
+           <tr>
+               <td><font size="2" color="Black" face="blue"><input type="button" onclick="mostrar('contenido3')" value="ING. MARIANA SANCHEZ GAMEZ"></font></td>
+           </tr>
+           <tr>
+               <td><font size="2" color="Black" face="blue"><input type="button" onclick="mostrar('contenido4')" value="ING. LUIS EDUARDO BALTAZAR SOLANO"></font></td>
+           </tr>
+          </table></center>
+         
+         </form><br></center>
+		 
+		 <center>
+		 <img src="iris.jpg" alt="Imagen dela Tarjeta" title="Programador En La Vida" width="550" height="290" border="4" class="oculto" id="contenido1">
+         <img src="BrendaT.jpg" alt="Imagen dela Tarjeta" title="Programador En La Vida" width="550" height="290" border="4" class="oculto" id="contenido2">
+         <img src="MarianaT.jpg" alt="Imagen dela Tarjeta" title="Programador En La Vida" width="550" height="290" border="4" class="oculto" id="contenido3">
+         <img src="Luis.jpg" alt="Imagen dela Tarjeta" title="Programador En La Vida" width="550" height="290" border="4" class="oculto" id="contenido4">
+		</center>
+		</article>
+
+		<embed align="left" src="done.mp3" hidden="true" loop="false" autostart="true" align="middle"></embed>
+
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="particles.min.js"></script>
+	<script src="particulas.js"></script>
+</body>
+</html>
